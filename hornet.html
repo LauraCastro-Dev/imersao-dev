@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Silksong | Hornet</title>
+</head>
+<body class="silksong-page">
+    <header>
+        <h1>SilkSong</h1>
+        <div>
+            <input type="text" id="campo-busca" placeholder="Pesquisar...">
+            <button id="botao-busca">Buscar</button>
+        </div>
+    </header>
+    <main class="options-container">
+        <div class="option">
+            <div class="option-header">
+                <span>Inimigos e Personagens</span>
+                <span class="dropdown-arrow">&#9660;</span>
+            </div>
+            <div id="silksong-info" class="additional-info">
+                <!-- Inimigos e personagens de Silksong serão inseridos aqui -->
+            </div>
+        </div>
+    </main>
+    <!-- O script.js pode ser incluído para funcionalidades futuras, como a busca -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const silksongContainer = document.getElementById('silksong-info');
+
+            /**
+             * Cria o HTML para uma lista de personagens e adiciona os eventos de clique.
+             */
+            function popularSecao(container, personagens) {
+                if (!container || personagens.length === 0) return;
+
+                const charactersHTML = personagens.map(personagem => `
+                    <div class="character-item">
+                        <h3 class="character-name-clickable">${personagem.nome}</h3>
+                        <div class="character-details-hidden">
+                            ${(() => { const imageUrl = personagem.imagem.startsWith('http') ? personagem.imagem : personagem.imagem;
+                                return `<img src="${imageUrl}" alt="Ícone de ${personagem.nome}" class="character-image-small"><p>${personagem.descricao}</p>`; })()}
+                        </div>
+                    </div>
+                `).join('');
+
+                container.innerHTML = charactersHTML;
+
+                container.querySelectorAll('.character-name-clickable').forEach(nameElement => {
+                    nameElement.addEventListener('click', () => {
+                        const details = nameElement.nextElementSibling;
+                        container.querySelectorAll('.character-details-hidden.details-visible').forEach(openDetail => {
+                            if (openDetail !== details) openDetail.classList.remove('details-visible');
+                        });
+                        details.classList.toggle('details-visible');
+                    });
+                });
+            }
+
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const silksongChars = data.filter(p => p.dlc === 'Silksong');
+                    popularSecao(silksongContainer, silksongChars);
+                })
+                .catch(error => console.error('Erro ao carregar dados para Silksong:', error));
+
+            document.querySelectorAll('.option-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    header.parentElement.classList.toggle('active');
+                });
+            });
+
+            // Lógica para a busca
+            const campoBusca = document.getElementById('campo-busca');
+            campoBusca.addEventListener('input', () => {
+                const termoBusca = campoBusca.value.toLowerCase();
+                const todosItens = document.querySelectorAll('.character-item');
+
+                todosItens.forEach(item => {
+                    const nomePersonagem = item.querySelector('.character-name-clickable').textContent.toLowerCase();
+                    const corresponde = nomePersonagem.includes(termoBusca);
+
+                    // Mostra ou esconde o item com base na busca
+                    item.style.display = corresponde ? '' : 'none';
+
+                    // Se corresponder, garante que a seção pai esteja visível
+                    if (corresponde && termoBusca) {
+                        const option = item.closest('.option');
+                        if (option && !option.classList.contains('active')) {
+                            option.classList.add('active');
+                        }
+                    }
+                });
+
+                // Se o campo de busca estiver vazio, a seção pode ser recolhida se desejado,
+                // mas manter aberta oferece uma experiência de usuário mais fluida.
+                if (!termoBusca) {
+                    // Nenhuma ação necessária para recolher, a menos que seja um requisito específico.
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Adicionado para alinhar os itens um embaixo do outro */
+        #jogo-principal-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Alinha os itens à esquerda */
+            gap: 15px; /* Espaçamento entre os itens */
+        }
+        /* Adicionado para alinhar o conteúdo de cada item à esquerda */
+        .character-item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Alinha o conteúdo interno à esquerda */
+            text-align: left; /* Alinha o texto do nome e descrição à esquerda */
+        }
+    </style>
+</head>
+<body class="hollowknight-page">
+    <header>
+        <h1>Hollow Knight</h1>
+        <div>
+            <input type="text" id="campo-busca" placeholder="Pesquisar...">
+            <button id="botao-busca">Buscar</button>
+        </div>
+    </header>
+
+    <main class="options-container">
+        <div class="option">
+            <div class="option-header">
+                <span>Jogo Principal</span>
+                <span class="dropdown-arrow">&#9660;</span>
+            </div>
+            <div id="jogo-principal-info" class="additional-info">
+                <!-- O conteúdo do data.json será inserido aqui -->
+            </div>
+        </div>
+        <div class="option">
+            <div class="option-header">
+                <span>A Trupe Grimm</span>
+                <span class="dropdown-arrow">&#9660;</span>
+            </div>
+            <div id="trupe-grimm-info" class="additional-info">
+                <!-- Personagens da Trupe Grimm serão inseridos aqui -->
+            </div>
+        </div>
+        <div class="option">
+            <div class="option-header">
+                <span>Sangue Vital</span>
+                <span class="dropdown-arrow">&#9660;</span>
+            </div>
+            <div id="sangue-vital-info" class="additional-info">
+                <!-- Personagens de Sangue Vital serão inseridos aqui -->
+            </div>
+        </div>
+        <div class="option">
+            <div class="option-header">
+                <span>Deus Mestre</span>
+                <span class="dropdown-arrow">&#9660;</span>
+            </div>
+            <div id="deus-mestre-info" class="additional-info">
+                <!-- Personagens de Deus Mestre serão inseridos aqui -->
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mapeia os nomes dos DLCs (como no JSON) para os IDs dos elementos no HTML
+            const dlcContainers = {
+                'jogo_base': document.getElementById('jogo-principal-info'),
+                'A Trupe Grimm': document.getElementById('trupe-grimm-info'),
+                'Sangue Vital': document.getElementById('sangue-vital-info'),
+                'Deus Mestre': document.getElementById('deus-mestre-info')
+            };
+
+            /**
+             * Cria o HTML para uma lista de personagens e adiciona os eventos de clique.
+             * @param {HTMLElement} container - O elemento div onde o HTML será inserido.
+             * @param {Array} personagens - A lista de personagens para renderizar.
+             */
+            function popularSecao(container, personagens) {
+                if (!container || personagens.length === 0) return;
+
+                const charactersHTML = personagens.map(personagem => {
+                    const imageUrl = personagem.imagem.startsWith('http') ? personagem.imagem : personagem.imagem;
+                    return `<div class="character-item">
+                                <h3 class="character-name-clickable">${personagem.nome}</h3>
+                                <div class="character-details-hidden">
+                                    <img src="${imageUrl}" alt="Ícone de ${personagem.nome}" class="character-image-small"><p>${personagem.descricao}</p>
+                                </div>
+                            </div>`;
+                }).join('');
+
+                container.innerHTML = charactersHTML;
+
+                // Adiciona o evento de clique para cada nome de personagem na seção
+                container.querySelectorAll('.character-name-clickable').forEach(nameElement => {
+                    nameElement.addEventListener('click', () => {
+                        const details = nameElement.nextElementSibling;
+                        // Fecha outros detalhes abertos na mesma seção para um efeito limpo
+                        container.querySelectorAll('.character-details-hidden.details-visible').forEach(openDetail => {
+                            if (openDetail !== details) openDetail.classList.remove('details-visible');
+                        });
+                        details.classList.toggle('details-visible');
+                    });
+                });
+            }
+
+            // Carrega os dados e distribui os personagens pelas seções corretas
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Filtra os personagens para cada categoria
+                    const jogoBaseChars = data.filter(p => !p.dlc);
+                    const trupeGrimmChars = data.filter(p => p.dlc === 'A Trupe Grimm');
+                    const sangueVitalChars = data.filter(p => p.dlc === 'Sangue Vital');
+                    const deusMestreChars = data.filter(p => p.dlc === 'Deus Mestre');
+
+                    // Popula cada seção com os personagens correspondentes
+                    popularSecao(dlcContainers['jogo_base'], jogoBaseChars);
+                    popularSecao(dlcContainers['A Trupe Grimm'], trupeGrimmChars);
+                    popularSecao(dlcContainers['Sangue Vital'], sangueVitalChars);
+                    popularSecao(dlcContainers['Deus Mestre'], deusMestreChars);
+                })
+                .catch(error => console.error('Erro ao carregar dados para opções:', error));
+
+            // Lógica para o acordeão principal
+            document.querySelectorAll('.option-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    const option = header.parentElement;
+                    option.classList.toggle('active');
+                });
+            });
+
+            // Lógica para a busca
+            const campoBusca = document.getElementById('campo-busca');
+            campoBusca.addEventListener('input', () => {
+                const termoBusca = campoBusca.value.toLowerCase();
+                const todosItens = document.querySelectorAll('.character-item');
+
+                todosItens.forEach(item => {
+                    const nomePersonagem = item.querySelector('.character-name-clickable').textContent.toLowerCase();
+                    const corresponde = nomePersonagem.includes(termoBusca);
+
+                    // Mostra ou esconde o item com base na busca
+                    item.style.display = corresponde ? '' : 'none';
+
+                    // Se corresponder, garante que a seção pai esteja visível
+                    if (corresponde && termoBusca) {
+                        const option = item.closest('.option');
+                        if (option && !option.classList.contains('active')) {
+                            option.classList.add('active');
+                        }
+                    }
+                });
+
+                // Se o campo de busca estiver vazio, recolhe as seções que não estavam ativas
+                if (!termoBusca) {
+                    document.querySelectorAll('.option').forEach(option => {
+                        // Uma lógica mais complexa poderia ser necessária se você quisesse
+                        // restaurar o estado exato de antes da busca, mas por enquanto
+                        // vamos manter todas abertas para simplicidade ou fechá-las.
+                        // Para este caso, vamos apenas garantir que a busca não force a abertura.
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
