@@ -1,0 +1,1312 @@
+[
+{
+    "nome": "O Cavaleiro",
+    "descricao": "O Cavaleiro é uma pequena criatura em forma de inseto, parecida com um fantasma, que usa uma máscara branca com dois chifres curvados. Ele não fala, não mostra emoções e não expressa sua história diretamente — tudo é descoberto através da exploração de Hallownest.",
+    "imagem": "imagens/The_Knight.webp"
+},
+{
+    "nome": "Crawlid",
+    "descricao": "Uma criatura dócil que rasteja sem rumo. Não representa uma ameaça direta, mas pode causar dano por contato.",
+    "imagem": "imagens/Beta_B_Crawlid.webp"
+},
+{
+    "nome": "Vengemosca",
+    "descricao": "Um predador voador comum em Hallownest que mergulha para atacar suas presas com suas mandíbulas.",
+    "imagem": "imagens/B_Vengefly.webp"
+},
+{
+    "nome": "Rei Vengemosca",
+    "descricao": "Uma versão maior e mais forte da Vengemosca, muitas vezes encontrada guardando locais importantes. Pode invocar Vengemoscas para ajudá-lo em batalha.",
+    "imagem":"imagens/B_Vengefly_King.webp"
+},
+{
+    "nome": "Mosca",
+    "descricao": "Pequenos insetos voadores que geralmente fogem do Cavaleiro. São inofensivos.",
+    "imagem": "imagens/Mosca.jpg"
+},
+{
+    "nome": "Mãe Mosca",
+    "descricao": "Uma criatura obesa que gera Moscas de seu corpo quando ameaçada. É lenta e não ataca diretamente.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/35/Gruz_Mother.png"
+},
+{
+    "nome": "Tiktik",
+    "descricao": "Um inseto predador que se esconde em tetos e no chão, esperando para emboscar sua presa.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/2d/Tiktik.png"
+},
+{
+    "nome": "Aspid Caçador",
+    "descricao": "Uma criatura voadora que dispara projéteis de gosma ácida em um arco. São ágeis e difíceis de acertar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c6/Aspid_Hunter.png"
+},
+{
+    "nome": "Aspid Mãe",
+    "descricao": "Uma variante maior da Aspid que gera Aspids Filhotes para atacar seus inimigos. Quando derrotada, libera vários filhotes.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/94/Aspid_Mother.png"
+},
+{
+    "nome": "Aspid Filhote",
+    "descricao": "Pequenas criaturas geradas pela Aspid Mãe. Voam em direção ao Cavaleiro para atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f7/Aspid_Hatchling.png"
+},
+{
+    "nome": "Goam",
+    "descricao": "Uma criatura semelhante a uma lesma que se move lentamente pelo chão, deixando um rastro de ácido.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c6/Goam.png"
+},
+{
+    "nome": "Carcaça Errante",
+    "descricao": "Os restos reanimados de um cidadão de Hallownest. Vaga sem rumo e ataca com seu ferrão quebrado.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/1/11/Wandering_Husk.png"
+},
+{
+    "nome": "Carcaça Chifruda",
+    "descricao": "Uma carcaça que corre em direção ao Cavaleiro assim que o vê.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/7/73/Horned_Husk.png"
+},
+{
+    "nome": "Carcaça Saltadora",
+    "descricao": "Uma carcaça que salta erraticamente, tornando seus movimentos imprevisíveis.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/3f/Leaping_Husk.png"
+},
+{
+    "nome": "Carcaça Valente",
+    "descricao": "Uma carcaça que se esconde em sua concha e explode em espinhos quando o Cavaleiro se aproxima.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c9/Husk_Bully.png"
+},
+{
+    "nome": "Carcaça Guerreira",
+    "descricao": "Uma carcaça que empunha uma espada e um escudo, capaz de bloquear ataques.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f5/Husk_Warrior.png"
+},
+{
+    "nome": "Carcaça Guardiã",
+    "descricao": "Uma carcaça grande e lenta que usa seu corpo como arma, batendo-o contra o chão para criar ondas de choque.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c5/Husk_Guard.png"
+},
+{
+    "nome": "Carcaça Sepultada",
+    "descricao": "Uma carcaça que emerge do chão para emboscar o Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/26/Entombed_Husk.png"
+},
+{
+    "nome": "Falso Cavaleiro",
+    "descricao": "Um verme que roubou a armadura de um dos Grandes Cavaleiros de Hallownest. É um dos primeiros chefes do jogo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/89/False_Knight.png"
+},
+{
+    "nome": "Verme",
+    "descricao": "Pequenas criaturas que não atacam, mas podem ser encontradas em várias áreas. São a forma verdadeira do Falso Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e6/Maggot.png"
+},
+{
+    "nome": "Inseto Reparador",
+    "descricao": "Um inseto amigável que conserta as placas de Hallownest. Ele foge se o Cavaleiro se aproxima.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/7/77/Menderbug.png"
+},
+{
+    "nome": "Germe de Vida",
+    "descricao": "Pequenas criaturas azuis que concedem máscaras de Sangue Vital ao serem destruídas. São encontradas em casulos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Lifeseed.png",
+    "dlc": "Sangue Vital"
+},
+{
+    "nome": "Baldur",
+    "descricao": "Uma criatura que se enrola em uma bola e rola em direção ao Cavaleiro. Sua carapaça é impenetrável quando enrolado.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f3/Baldur.png"
+},
+{
+    "nome": "Baldur Ancião",
+    "descricao": "Uma versão maior e mais resistente do Baldur, encontrada no Reino dos Deuses.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/8e/Elder_Baldur.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Rastejante Musgoso",
+    "descricao": "Uma criatura coberta de musgo que rasteja lentamente. É pacífica, mas pode causar dano por contato.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c7/Mosscreep.png"
+},
+{
+    "nome": "Musgoso Voador",
+    "descricao": "Uma variante voadora do Musgoso que se move lentamente pelo ar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/2f/Mossfly.png"
+},
+{
+    "nome": "Musgoso",
+    "descricao": "Uma criatura coberta de musgo que se camufla no ambiente e ataca quando o Cavaleiro se aproxima.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/2f/Mosskin.png"
+},
+{
+    "nome": "Musgoso Volátil",
+    "descricao": "Um Musgoso que explode ao ser derrotado, liberando uma nuvem de esporos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d7/Volatile_Mosskin.png"
+},
+{
+    "nome": "Devorador de Tolos",
+    "descricao": "Uma planta carnívora que se esconde no chão e emerge para atacar presas desavisadas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d4/Fool_Eater.png"
+},
+{
+    "nome": "Mosquito",
+    "descricao": "Um inseto que suga o sangue de suas vítimas. É lento, mas pode ser perigoso em grupos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c8/Squit.png"
+},
+{
+    "nome": "Obble",
+    "descricao": "Uma criatura flutuante que dispara projéteis em várias direções ao ser ameaçada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c8/Obble.png"
+},
+{
+    "nome": "Gulka",
+    "descricao": "Uma criatura parecida com uma planta que dispara espinhos curvos que retornam como um bumerangue.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Gulka.png"
+},
+{
+    "nome": "Mosca Mascarada",
+    "descricao": "Uma criatura que usa uma máscara e ataca com um ferrão. É mais ágil que as carcaças comuns.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d6/Maskfly.png"
+},
+{
+    "nome": "Batedor Musgoso",
+    "descricao": "Um guardião do Caminho Verde que patrulha uma área específica, atacando com seu longo ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d4/Moss_Charger.png"
+},
+{
+    "nome": "Batedor Musgoso Imenso",
+    "descricao": "Uma versão gigante do Batedor Musgoso, um mini-chefe encontrado no Caminho Verde.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/58/Massive_Moss_Charger.png"
+},
+{
+    "nome": "Cavaleiro Musgoso",
+    "descricao": "Um cavaleiro coberto de musgo que empunha um ferrão e um escudo de vegetação. É um guardião ágil e forte.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/3f/Moss_Knight.png"
+},
+{
+    "nome": "Vagabundo Musgoso",
+    "descricao": "Os restos de uma grande criatura coberta de musgo. Ataca com seus grandes braços.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/5d/Mossy_Vagabond.png"
+},
+{
+    "nome": "Durandoo",
+    "descricao": "Uma criatura com uma carapaça dura que a protege de ataques. Ataca com um golpe rápido.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c4/Durandoo.png"
+},
+{
+    "nome": "Duranda",
+    "descricao": "Uma criatura similar ao Durandoo, mas que dispara espinhos quando ameaçada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d8/Duranda.png"
+},
+{
+    "nome": "Aluba",
+    "descricao": "Uma criatura voadora pacífica que flutua pelos Ermos Fúngicos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/84/Aluba.png"
+},
+{
+    "nome": "Lumélula Elétrica",
+    "descricao": "Um inseto que gera uma aura elétrica ao seu redor. É perigoso se aproximar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d1/Zapwing.png"
+},
+{
+    "nome": "Uoma",
+    "descricao": "Uma criatura semelhante a uma água-viva que flutua passivamente. Seu núcleo é explosivo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/1/1d/Uoma.png"
+},
+{
+    "nome": "Ooma",
+    "descricao": "Uma versão maior da Uoma. Ao ser destruída, seu núcleo explode, causando dano em uma grande área.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/b/b3/Ooma.png"
+},
+{
+    "nome": "Uumuu",
+    "descricao": "Um chefe gigante, semelhante a uma água-viva, que guarda a Professora Monomon. É imune a ataques até que seu núcleo seja exposto.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/53/Uumuu.png"
+},
+{
+    "nome": "Ambloom",
+    "descricao": "Uma criatura que rola pelo chão e explode em esporos ao ser derrotada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c6/Ambloom.png"
+},
+{
+    "nome": "Cria Fúngica",
+    "descricao": "Uma pequena criatura fúngica que salta em direção ao Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a9/Fungling.png"
+},
+{
+    "nome": "Balão Fúngico",
+    "descricao": "Uma criatura fúngica que flutua e explode, liberando uma nuvem de esporos tóxicos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/0/05/Fungoon.png"
+},
+{
+    "nome": "Sporg",
+    "descricao": "Uma criatura fúngica que se prende a plataformas e dispara projéteis de esporos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/2b/Sporg.png"
+},
+{
+    "nome": "Carcaça Fúngica",
+    "descricao": "Uma carcaça infectada por fungos que explode em uma nuvem de esporos ao ser derrotada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/9f/Fungused_Husk.png"
+},
+{
+    "nome": "Filhote Fúngico",
+    "descricao": "Uma pequena criatura que salta e ataca o Cavaleiro. Geralmente encontrada em grupos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a9/Fungling.png"
+},
+{
+    "nome": "Guerreiro Fúngico",
+    "descricao": "Um cogumelo gigante que ataca com seus braços. É um inimigo formidável nos Ermos Fúngicos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d6/Shrumal_Warrior.png"
+},
+{
+    "nome": "Ogro Fúngico",
+    "descricao": "Uma versão maior e mais forte do Guerreiro Fúngico, que ataca com golpes poderosos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/1/15/Shrumal_Ogre.png"
+},
+{
+    "nome": "Louva-a-Deus Jovem",
+    "descricao": "Um membro jovem da Tribo Louva-a-Deus que voa e ataca com garras afiadas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d8/Mantis_Youth.png"
+},
+{
+    "nome": "Louva-a-Deus Guerreiro",
+    "descricao": "Um guerreiro habilidoso da Tribo Louva-a-Deus que ataca com um ferrão em investidas rápidas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Mantis_Warrior.png"
+},
+{
+    "nome": "Lordes Louva-a-Deus",
+    "descricao": "As líderes da Tribo Louva-a-Deus. Um trio de chefes que lutam com graça e velocidade incríveis.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/33/Mantis_Lords.png"
+},
+{
+    "nome": "Carcaça Sentinela",
+    "descricao": "Uma carcaça que patrulha a Cidade das Lágrimas, atacando com um ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f3/Husk_Sentry.png"
+},
+{
+    "nome": "Sentinela Pesada",
+    "descricao": "Uma grande sentinela que ataca com um poderoso golpe de sua arma.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/82/Heavy_Sentry.png"
+},
+{
+    "nome": "Sentinela Alada",
+    "descricao": "Uma sentinela voadora que patrulha os céus da Cidade das Lágrimas, atacando com seu ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/87/Winged_Sentry.png"
+},
+{
+    "nome": "Sentinela Lanceira",
+    "descricao": "Uma sentinela que arremessa lanças de longa distância.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d3/Lance_Sentry.png"
+},
+{
+    "nome": "Erro",
+    "descricao": "Os restos reanimados de um estudioso, que flutua e dispara projéteis teleguiados.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/83/Mistake.png"
+},
+{
+    "nome": "Louco",
+    "descricao": "Um estudioso que se tornou instável. Ele se teletransporta e ataca com orbes de energia.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d7/Folly.png"
+},
+{
+    "nome": "Manipulador de Alma",
+    "descricao": "Um estudioso que domina a arte da alma. Ele se teletransporta e dispara orbes de alma.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/95/Soul_Twister.png"
+},
+{
+    "nome": "Guerreiro das Almas",
+    "descricao": "Um estudioso que combina combate físico com magia de alma, atacando com um ferrão e orbes de energia.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f7/Soul_Warrior.png"
+},
+{
+    "nome": "Mestre das Almas",
+    "descricao": "O líder do Santuário das Almas. Um chefe poderoso que usa uma variedade de ataques de alma e teletransporte.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/38/Soul_Master.png"
+},
+{
+    "nome": "Carcaça Elegante",
+    "descricao": "Os restos de um nobre da Cidade das Lágrimas. Ataca com um florete.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Elegant_Husk.png"
+},
+{
+    "nome": "Carcaça Covarde",
+    "descricao": "Uma carcaça que foge do Cavaleiro e se encolhe de medo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/3d/Cowardly_Husk.png"
+},
+{
+    "nome": "Carcaça Gulosa",
+    "descricao": "Uma carcaça obesa que carrega uma grande quantidade de Geo. Tenta fugir quando atacada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d8/Gluttonous_Husk.png"
+},
+{
+    "nome": "Carcaça Deslumbrante",
+    "descricao": "Uma carcaça coberta de cristais que emite uma luz brilhante.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Gorgeous_Husk.png"
+},
+{
+    "nome": "Cavaleiro Sentinela",
+    "descricao": "Grandes cavaleiros que guardam a entrada para os Jardins da Rainha. São extremamente resistentes e poderosos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/80/Great_Husk_Sentry.png"
+},
+{
+    "nome": "O Colecionador",
+    "descricao": "Uma criatura sombria que aprisiona insetos em jarras. Um chefe que ataca liberando inimigos capturados.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/ce/The_Collector.png"
+},
+{
+    "nome": "Ventremosca",
+    "descricao": "Uma criatura voadora que gera Flukefeys de seu corpo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/25/Belfly.png"
+},
+{
+    "nome": "Pilflip",
+    "descricao": "Uma criatura acrobática que salta e rola para atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Pilflip.png"
+},
+{
+    "nome": "Hwurmp",
+    "descricao": "Um verme que se retrai em sua concha protetora quando ameaçado.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/4/43/Hwurmp.png"
+},
+{
+    "nome": "Saco Viscoso",
+    "descricao": "Um saco de ovos que libera Flukefeys quando destruído.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d8/Slime_Sack.png"
+},
+{
+    "nome": "Defensor do Esterco",
+    "descricao": "Um dos Grandes Cavaleiros de Hallownest que guarda os Esgotos Reais. Ataca rolando bolas de esterco.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/1/1f/Dung_Defender.png"
+},
+{
+    "nome": "Flukefey",
+    "descricao": "Uma pequena criatura semelhante a uma larva que voa em direção ao Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Flukefey.png"
+},
+{
+    "nome": "Flukemon",
+    "descricao": "Uma criatura que se move lentamente e gera Flukefeys.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d3/Flukemon.png"
+},
+{
+    "nome": "Flukemarm",
+    "descricao": "A mãe de todos os Flukes, um chefe opcional que gera Flukefeys continuamente.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/86/Flukemarm.png"
+},
+{
+    "nome": "Ácaro Cristalizado",
+    "descricao": "Uma criatura que dispara um feixe de laser de seu corpo cristalino.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a1/Crystal_Mite.png"
+},
+{
+    "nome": "Couraçado de Cristal",
+    "descricao": "Uma criatura com uma carapaça de cristal impenetrável que dispara feixes de laser.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d3/Crystal_Crawler.png"
+},
+{
+    "nome": "Caçador de Cristal",
+    "descricao": "Uma criatura voadora que dispara projéteis de cristal que se quebram em fragmentos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/8e/Crystal_Hunter.png"
+},
+{
+    "nome": "Rastejador de Cristal",
+    "descricao": "Uma criatura que rasteja e dispara um feixe de laser contínuo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d3/Crystal_Crawler.png"
+},
+{
+    "nome": "Carcaça Mineradora",
+    "descricao": "Uma carcaça que trabalhava nas minas de cristal. Ataca com sua picareta.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Husk_Miner.png"
+},
+{
+    "nome": "Carcaça Cristalizada",
+    "descricao": "Uma carcaça que foi consumida pelos cristais e explode ao ser derrotada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/9c/Crystallised_Husk.png"
+},
+{
+    "nome": "Guardião Cristalizado",
+    "descricao": "O corpo reanimado de um inseto gigante coberto de cristais. Dispara um poderoso feixe de laser do teto.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/0/0f/Crystal_Guardian.png"
+},
+{
+    "nome": "Vengemosca Furiosa",
+    "descricao": "Uma Vengemosca infectada, mais rápida e agressiva que a versão normal.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/4/48/Furious_Vengefly.png"
+},
+{
+    "nome": "Mosca Volátil",
+    "descricao": "Uma criatura infectada que explode ao se aproximar do Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d7/Volatile_Gruzzer.png"
+},
+{
+    "nome": "Carcaça Violenta",
+    "descricao": "Uma carcaça infectada que corre descontroladamente em direção ao Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/83/Violent_Husk.png"
+},
+{
+    "nome": "Carcaça Cuspidora",
+    "descricao": "Uma carcaça infectada que cospe bolhas de infecção.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Spitting_Husk.png"
+},
+{
+    "nome": "Escavador",
+    "descricao": "Uma criatura que se enterra no chão e emerge para atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c9/Dirtcarver.png"
+},
+{
+    "nome": "Cavador Incubador",
+    "descricao": "Uma criatura que se enterra e reaparece para gerar Escavadores.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/b/b8/Carver_Hatcher.png"
+},
+{
+    "nome": "Centopéia",
+    "descricao": "Uma criatura que se move rapidamente pelo chão e paredes.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/8b/Garpede.png"
+},
+{
+    "nome": "Rouba-Cadáveres",
+    "descricao": "Uma criatura que se alimenta de carcaças e ataca quando perturbada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e7/Corpse_Creeper.png"
+},
+{
+    "nome": "Aranha Filhote",
+    "descricao": "Pequenas aranhas que atacam em enxames.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/cf/Deepling.png"
+},
+{
+    "nome": "Aranha Caçadora",
+    "descricao": "Uma aranha que se camufla como um objeto inanimado e ataca de surpresa.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/3f/Deephunter.png"
+},
+{
+    "nome": "Pequena Tecelã",
+    "descricao": "Pequenas criaturas que servem a Tribo das Tecelãs. Atacam com agulhas e fios.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c4/Little_Weaver.png"
+},
+{
+    "nome": "Devoto Espreitador",
+    "descricao": "Membros da tribo de Ninho Profundo que se disfarçam e atacam com garras afiadas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Stalking_Devout.png"
+},
+{
+    "nome": "Nosk",
+    "descricao": "Um chefe que imita a forma de outros insetos para atrair suas presas. Sua verdadeira forma é uma criatura aracnídea aterrorizante.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/9f/Nosk.png"
+},
+{
+    "nome": "Rastejador Sombrio",
+    "descricao": "Uma criatura do Vazio que rasteja e se funde com as sombras.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Shadow_Creeper.png"
+},
+{
+    "nome": "Mawlek Menor",
+    "descricao": "Uma criatura que cospe gosma ácida e ataca com suas garras.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/25/Lesser_Mawlek.png"
+},
+{
+    "nome": "Mawlurk",
+    "descricao": "Uma versão maior do Mawlek que se esconde no teto e cospe grandes quantidades de gosma.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Mawlurk.png"
+},
+{
+    "nome": "Mawlek Incubador",
+    "descricao": "Um chefe opcional que ataca com garras e gosma, enquanto está cercado por uma poça de infecção.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d5/Brooding_Mawlek.png"
+},
+{
+    "nome": "Germe de Luz",
+    "descricao": "Uma criatura bioluminescente que ilumina áreas escuras. É inofensiva.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c5/Lightseed.png"
+},
+{
+    "nome": "Balão Infectado",
+    "descricao": "Uma criatura voadora cheia de infecção que explode ao ser derrotada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/1/18/Infected_Balloon.png"
+},
+{
+    "nome": "Receptáculo Quebrado",
+    "descricao": "Um chefe que é um receptáculo descartado, similar ao Cavaleiro. Ataca com um ferrão e libera bolhas de infecção.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/5e/Broken_Vessel.png"
+},
+{
+    "nome": "Bubélula",
+    "descricao": "Uma criatura que gera bolhas de Sangue Vital ao ser atingida.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/b/b2/Boofly.png",
+    "dlc": "Sangue Vital"
+},
+{
+    "nome": "Aspid Primitiva",
+    "descricao": "Uma versão mais antiga e perigosa da Aspid, que dispara três projéteis de uma vez.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/53/Primal_Aspid.png"
+},
+{
+    "nome": "Saltador",
+    "descricao": "Uma criatura que salta em direção ao Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d8/Hopper.png"
+},
+{
+    "nome": "Grande Saltador",
+    "descricao": "Uma versão maior e mais resistente do Saltador.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c6/Great_Hopper.png"
+},
+{
+    "nome": "Mímico de Larva",
+    "descricao": "Uma criatura que se disfarça de Larva aprisionada para emboscar o Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/cb/Grub_Mimic.png"
+},
+{
+    "nome": "Filhote da Colmeia",
+    "descricao": "Um pequeno inseto da Colmeia que voa em direção ao Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/7/7c/Hiveling.png"
+},
+{
+    "nome": "Guerreiro da Colmeia",
+    "descricao": "Um guardião da Colmeia que ataca com um ferrão e pode se transformar em uma bola de espinhos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/53/Hive_Soldier.png"
+},
+{
+    "nome": "Guardião da Colmeia",
+    "descricao": "Um grande guardião da Colmeia que ataca com seu corpo e libera abelhas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/27/Hive_Guardian.png"
+},
+{
+    "nome": "Carcaça Colmeia",
+    "descricao": "Uma carcaça coberta de mel que libera abelhas ao ser derrotada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d3/Husk_Hive.png"
+},
+{
+    "nome": "Cavaleiro da Colmeia",
+    "descricao": "Um leal guardião da Vespa, a rainha da Colmeia. Este chefe ágil foi adicionado na atualização Sangue Vital e protege o interior da Colmeia.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/0/03/Hive_Knight.png",
+    "dlc": "Sangue Vital"
+},
+{
+    "nome": "Carcaça Espinhosa",
+    "descricao": "Uma carcaça que dispara espinhos de seu corpo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Spiny_Husk.png"
+},
+{
+    "nome": "Loodle",
+    "descricao": "Uma criatura semelhante a um verme que se move pelo chão e paredes.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e0/Loodle.png"
+},
+{
+    "nome": "Louva-a-Deus Petra",
+    "descricao": "Um Louva-a-Deus que arremessa discos cortantes que ricocheteiam.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d3/Mantis_Petra.png"
+},
+{
+    "nome": "Louva-a-Deus Traidor",
+    "descricao": "Um Louva-a-Deus exilado que foi corrompido pela Infecção. Ataca com ferocidade.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/6/6c/Traitor_Mantis.png"
+},
+{
+    "nome": "Lorde Traidor",
+    "descricao": "O líder dos Louva-a-Deus traidores. Um chefe poderoso que usa ataques de longo alcance e ondas de choque.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e7/Traitor_Lord.png"
+},
+{
+    "nome": "Baldur Afiado",
+    "descricao": "Uma variante do Baldur com espinhos em sua carapaça, causando dano ao ser atacado enquanto enrolado.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e0/Spiked_Baldur.png"
+},
+{
+    "nome": "Mosquito Encouraçado",
+    "descricao": "Um mosquito com uma carapaça que o protege de ataques.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/b/b8/Armoured_Squit.png"
+},
+{
+    "nome": "Obble de Guerra",
+    "descricao": "Uma variante do Obble encontrada no Coliseu dos Tolos, que dispara mais projéteis.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c8/Obble.png"
+},
+{
+    "nome": "Oblobbles",
+    "descricao": "Um par de criaturas que flutuam e disparam uma chuva de projéteis. São um mini-chefe no Coliseu dos Tolos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/85/Oblobble.png"
+},
+{
+    "nome": "Tolo Protegido",
+    "descricao": "Um gladiador do Coliseu dos Tolos que usa um escudo para se proteger.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d9/Shielded_Fool.png"
+},
+{
+    "nome": "Tolo Robusto",
+    "descricao": "Um gladiador forte que ataca com um grande ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/52/Sturdy_Fool.png"
+},
+{
+    "nome": "Tolo Alado",
+    "descricao": "Um gladiador voador que ataca de cima.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Winged_Fool.png"
+},
+{
+    "nome": "Tolo Pesado",
+    "descricao": "Um gladiador grande e lento que causa muito dano.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/1/1c/Heavy_Fool.png"
+},
+{
+    "nome": "Loodle Letal",
+    "descricao": "Uma variante mais perigosa do Loodle encontrada no Coliseu dos Tolos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e0/Loodle.png"
+},
+{
+    "nome": "Manipulador Voltaico",
+    "descricao": "Uma criatura que gera eletricidade, encontrada no Coliseu dos Tolos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/95/Soul_Twister.png"
+},
+{
+    "nome": "Zote o Poderoso",
+    "descricao": "Um cavaleiro autoproclamado 'poderoso' que é, na verdade, fraco e delirante. Pode ser enfrentado como um chefe em sua forma de 'Zote Cinzento, o Príncipe'.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Zote_the_Mighty.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Domador de Deuses",
+    "descricao": "O chefe final do Coliseu dos Tolos, uma guerreira que luta montada em uma fera.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/29/God_Tamer.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Xero",
+    "descricao": "Um chefe guerreiro dos sonhos que ataca com ferrões flutuantes.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f3/Xero.png"
+},
+{
+    "nome": "Gorb",
+    "descricao": "Um chefe dos sonhos que se autodenomina a 'Grande Mente'. Ataca com um anel de espinhos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/81/Gorb.png"
+},
+{
+    "nome": "Ancião Hu",
+    "descricao": "Um chefe dos sonhos que ataca com anéis de energia que caem do céu.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/92/Elder_Hu.png"
+},
+{
+    "nome": "Marmu",
+    "descricao": "Um chefe dos sonhos que se enrola em uma bola e ricocheteia pela arena.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Marmu.png"
+},
+{
+    "nome": "Sem Olhos",
+    "descricao": "Um chefe dos sonhos que invoca fantasmas que flutuam pela arena.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c4/No_Eyes.png"
+},
+{
+    "nome": "Galien",
+    "descricao": "Um chefe guerreiro dos sonhos que ataca com uma grande foice giratória.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/58/Galien.png"
+},
+{
+    "nome": "Markoth",
+    "descricao": "Um chefe guerreiro dos sonhos que empunha um escudo e invoca ferrões espectrais.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/6/67/Markoth.png"
+},
+{
+    "nome": "Armadura Alada",
+    "descricao": "Uma armadura vazia animada por um espírito. Ataca com um grande ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/87/Winged_Sentry.png"
+},
+{
+    "nome": "Servo Real",
+    "descricao": "Os servos leais do Palácio Branco. Atacam com ferrões e movimentos rápidos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f0/Royal_Retainer.png"
+},
+{
+    "nome": "Armadura Real",
+    "descricao": "Uma armadura real animada que guarda o Palácio Branco.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/80/Great_Husk_Sentry.png"
+},
+{
+    "nome": "Irmão",
+    "descricao": "Uma referência aos outros Receptáculos, irmãos do Cavaleiro.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/4/4b/Sibling.png"
+},
+{
+    "nome": "Tentáculos do Vazio",
+    "descricao": "Manifestações do Vazio que emergem para atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/4/4b/Void_Tendrils.png"
+},
+{
+    "nome": "O Cavaleiro Vazio",
+    "descricao": "O chefe final do jogo base. Um Receptáculo que conteve a Radiância, agora lutando contra sua influência.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/4/4b/The_Hollow_Knight.png"
+},
+{
+    "nome": "A Radiância",
+    "descricao": "O verdadeiro chefe final de Hollow Knight. Uma entidade de luz que é a fonte da Infecção.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/9/91/The_Radiance.png"
+},
+{
+    "nome": "Sombra",
+    "descricao": "A Sombra do Cavaleiro que aparece no local de sua morte. Deve ser derrotada para recuperar a Alma e o Geo perdidos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d5/Shade.png"
+},
+{
+    "nome": "Marca do Caçador",
+    "descricao": "A marca concedida pelo Caçador após completar o Diário do Caçador, registrando todas as criaturas de Hallownest.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/6/64/Hunter%27s_Mark.png"
+},
+{
+    "nome": "Mestre da Trupe Grimm",
+    "descricao": "O líder enigmático da Trupe Grimm. Ele chega a Hallownest para realizar um ritual sombrio e oferece ao Cavaleiro o amuleto Grimmchild.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Troupe_Master_Grimm.png",
+    "dlc": "A Trupe Grimm"
+},
+{
+    "nome": "Rei do Pesadelo Grimm",
+    "descricao": "A forma final e mais poderosa de Grimm, enfrentada no Coração do Pesadelo. É um dos chefes mais difíceis do jogo, com ataques extremamente rápidos e mortais.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d4/Nightmare_King_Grimm.png",
+    "dlc": "A Trupe Grimm"
+},
+{
+    "nome": "Brumm",
+    "descricao": "Um membro da Trupe Grimm que toca um acordeão melancólico. Ele auxilia no ritual, mas secretamente deseja acabar com o ciclo interminável da Trupe.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/7/73/Brumm.png",
+    "dlc": "A Trupe Grimm"
+},
+{
+    "nome": "Divine",
+    "descricao": "Uma NPC da Trupe Grimm que pode consumir Amuletos Frágeis e, em troca de uma grande quantidade de Geo, torná-los Inquebráveis.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/7/78/Divine.png",
+    "dlc": "A Trupe Grimm"
+},
+{
+    "nome": "Mestre da Trupe Novato",
+    "descricao": "Fantasmas ardentes da Trupe Grimm que devem ser derrotados para coletar chamas para o ritual. Atacam com um avanço rápido e um projétil de fogo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/2c/Grimmkin_Novice.png",
+    "dlc": "A Trupe Grimm"
+},
+{
+    "nome": "Mestre da Trupe Mestre",
+    "descricao": "Uma versão mais forte dos Novatos, encontrados na segunda fase da coleta de chamas. São mais rápidos e disparam dois projéteis.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/34/Grimmkin_Master.png",
+    "dlc": "A Trupe Grimm"
+},
+{
+    "nome": "Mestre da Trupe Pesadelo",
+    "descricao": "A forma final dos Mestres da Trupe, enfrentados durante a busca pelo Rei do Pesadelo. São extremamente ágeis e perigosos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/b/b8/Grimmkin_Nightmare.png",
+    "dlc": "A Trupe Grimm"
+},
+{
+    "nome": "Buscador de Deuses",
+    "descricao": "Uma entidade misteriosa que busca os deuses mais poderosos de Hallownest. É a figura central do Panteão e do Lar dos Deuses.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/7/78/Godseeker.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Receptáculo Alado",
+    "descricao": "Uma variante de Nosk encontrada no Panteão de Hallownest, que imita a forma de Hornet. É mais ágil e possui ataques aéreos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Winged_Nosk.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Mestres do Ferrão Oro e Mato",
+    "descricao": "Dois irmãos e Mestres do Ferrão que lutam juntos. São um chefe encontrado no Panteão do Artista.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/d/d7/Nailmasters_Oro_%26_Mato.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Mestre da Lâmina Sheo",
+    "descricao": "Um Mestre do Ferrão aposentado que se dedicou à arte. Ele luta usando diferentes 'Artes do Ferrão' e é um chefe no Panteão do Artista.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/87/Paintmaster_Sheo.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Grande Sábio do Ferrão Sly",
+    "descricao": "O Mestre do Ferrão que ensinou os outros. Apesar de seu tamanho, é um chefe incrivelmente rápido e mortal, encontrado no Panteão do Sábio.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/6/68/Great_Nailsage_Sly.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Receptáculo Puro",
+    "descricao": "O Cavaleiro Vazio em seu auge, antes de ser enfraquecido pela Infecção. É o penúltimo chefe do Panteão de Hallownest.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/31/Pure_Vessel.png",
+    "dlc": "Deus Mestre"
+},
+{
+    "nome": "Radiância Absoluta",
+    "descricao": "A forma mais poderosa da Radiância, a verdadeira divindade de Hallownest. É o chefe final secreto do jogo, encontrado no topo do Panteão de Hallownest.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/b/b8/Absolute_Radiance.png",
+    "dlc": "Deus Mestre"
+},
+{   
+    "nome": "Hornet",
+    "descricao": "A princesa protetora de Hallownest e protagonista de Silksong. Uma guerreira ágil que empunha sua agulha e linha com maestria, explorando o reino de Pharloom para desvendar os mistérios de sua captura.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/ab/Hornet_Sprite.png/revision/latest",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mossgrub",
+    "descricao": "Uma larva coberta de pelos com espinhos afiados nas costas. É uma das primeiras criaturas encontradas em Silksong e geralmente rasteja pelo chão e paredes.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Mossgrub.png/revision/latest?cb=20210303015039",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Massive Mossgrub",
+    "descricao": "Uma versão anormalmente grande do Mossgrub, criada nos salões de preservação da Cidadela.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/33/Massive_Mossgrub.png/revision/latest?cb=20210303015024",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mossmir",
+    "descricao": "Uma pequena criatura alada que se defende com um pequeno ferrão. Geralmente é dócil, mas ataca mergulhando verticalmente quando provocado.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/8/8d/Mossmir.png/revision/latest?cb=20210303015032",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Moss Mother",
+    "descricao": "Um dos primeiros chefes do jogo, encontrado no Moss Grotto. É uma criatura obesa que gera Moscas de seu corpo quando ameaçada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/3/35/Gruz_Mother.png/revision/latest?cb=20181113002758",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Aknid",
+    "descricao": "Um inseto alado que se alimenta de musgo nos Bonebottoms. Normalmente evita predadores, mas a maldição que assola Pharloom o tornou agressivo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Aknid.png/revision/latest?cb=20240726010531",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Skull Scuttler",
+    "descricao": "Uma criatura que se assemelha a um crânio e se move rapidamente.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Skull_Scuttler.png/revision/latest?cb=20240726010542",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Bell Beast",
+    "descricao": "Uma criatura grande e pesada que ataca chifrando, pulando e cavando. Após ser derrotado, torna-se um meio de transporte rápido entre diferentes estações.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Bell_Beast.png/revision/latest?cb=20220613165843",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Lace",
+    "descricao": "Uma espadachim ágil e uma das principais chefes do jogo, que se considera uma rival de Hornet. Ela empunha uma agulha dourada e pode aparar os ataques de Hornet.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/5/55/Lace.png/revision/latest?cb=20190215004113",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Shakra",
+    "descricao": "Uma poderosa guerreira e cartógrafa que vende mapas de várias regiões de Pharloom para Hornet. Ela está em uma jornada para encontrar seu mestre.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/b/b7/Shakra.png/revision/latest?cb=20190321230343",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Garmond & Zaza",
+    "descricao": "Uma dupla de NPCs que podem ajudar Hornet em batalhas. Garmond é um cavaleiro robusto e Zaza é sua fiel montaria. Eles podem ser recrutados para a luta contra o chefe Moorwing.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Garmond_and_Zaza.png/revision/latest?cb=20240726010554",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Shrine Guardian Seth",
+    "descricao": "Um chefe guardião ágil que usa um escudo em forma de prato. Este personagem foi criado em homenagem a Seth Goldman, um fã do jogo que faleceu.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a9/Shrine_Guardian_Seth.png/revision/latest?cb=20201216001159",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Trobbio",
+    "descricao": "Um chefe espalhafatoso com ataques imprevisíveis, incluindo fogos de artifício e explosões. Seu nome é uma homenagem ao seu dublador, Matt Trobbiani.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Trobbio.png/revision/latest?cb=20240726010603",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Hardbone Hopper",
+    "descricao": "Um inseto saltador com uma carapaça óssea que se move pelas áreas, geralmente ignorando Hornet, mas pode ser um obstáculo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Hardbone_Hopper.png/revision/latest?cb=20240726010612",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Pilgrim",
+    "descricao": "Inimigos comuns encontrados em Pharloom, muitas vezes em grupos. Existem várias variantes, incluindo alguns que podem ser encontrados corrompidos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/6/6f/Pilgrim.png/revision/latest?cb=20240726010620",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Cogwork Dancers",
+    "descricao": "Um chefe duplo que consiste em duas máquinas que se movem em sincronia com batidas rítmicas, exigindo que o jogador aprenda seus padrões de tempo para desviar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Cogwork_Dancers.png/revision/latest?cb=20240726010629",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Forebrothers Signis & Gron",
+    "descricao": "Um chefe duplo encontrado nos Deep Docks. A luta é caótica, com muitos projéteis, e se torna mais intensa quando o segundo irmão se junta à batalha.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Forebrothers_Signis_and_Gron.png/revision/latest?cb=20240726010638",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Skarrsinger Karmelita",
+    "descricao": "Uma chefe rainha de uma sociedade guerreira. Ela mistura canto e combate, usando um par de adagas com graça mortal.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Skarrsinger_Karmelita.png/revision/latest?cb=20240726010647",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Moorwing",
+    "descricao": "Um chefe voador encontrado em Greymoor. A luta pode ser desafiadora, mas é possível recrutar Garmond e Zaza para ajudar ou até mesmo pular a luta completando uma missão secundária.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/2/28/Moorwing.png/revision/latest?cb=20240726010655",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Last Judge",
+    "descricao": "Um chefe encontrado nos Blasted Steps. Ele ataca com um turíbulo que pode inflamar, exigindo movimento constante do jogador.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Last_Judge.png/revision/latest?cb=20240726010703",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Crust King Khann",
+    "descricao": "Um lorde guerreiro endurecido que comanda legiões e domina a crosta de coral de Karak, usando espinhos para controlar o campo de batalha.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Crust_King_Khann.png/revision/latest?cb=20240726010711",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Nyleth",
+    "descricao": "Um chefe que representa a força vital de Shellwood. A batalha contra ele testa as habilidades de Hornet enquanto ele personifica a luta entre herança e escolha.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Nyleth.png/revision/latest?cb=20240726010720",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Clover Dancers",
+    "descricao": "Um chefe duplo que preserva o legado de Verdania através de uma dança graciosa e brutal.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Clover_Dancers.png/revision/latest?cb=20240726010728",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Wraith",
+    "descricao": "Espectros de seda encontrados na área de The Mist. Eles flutuam e mergulham para atacar, causando dano duplo e drenando a Seda de Hornet se a agarrarem.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Wraith.png/revision/latest?cb=20240726010736",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Last Claw",
+    "descricao": "Um mestre de uma antiga arte de batalha, este chefe desafia Hornet em um duelo de agilidade e precisão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Last_Claw.png/revision/latest?cb=20240726010744",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Steel-Shell",
+    "descricao": "Um chefe que comanda as forças mecanizadas da Cidadela. A batalha contra ele envolve desviar de ataques coordenados e encontrar aberturas em sua defesa impenetrável.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Steel-Shell.png/revision/latest?cb=20240726010752",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Tarmite",
+    "descricao": "Uma criatura que se assemelha a um cupim e parece estar associada a estruturas de madeira ou terra.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Tarmite.png/revision/latest?cb=20240726010800",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mawling",
+    "descricao": "Uma criatura com uma grande boca, sugerindo um ataque de mordida ou cuspe.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Mawling.png/revision/latest?cb=20240726010808",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Marrowmaw",
+    "descricao": "Uma criatura esquelética que emerge de paredes para cuspir projéteis em Hornet.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Marrowmaw.png/revision/latest?cb=20240726010816",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Hoker",
+    "descricao": "Uma criatura que se assemelha a um batedor e usa seu ferrão para atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Hoker.png/revision/latest?cb=20240726010824",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Flintbeetle",
+    "descricao": "Um besouro com uma carapaça dura que pode ser difícil de penetrar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Flintbeetle.png/revision/latest?cb=20240726010832",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Rhinogrund",
+    "descricao": "Uma criatura que se assemelha a um rinoceronte e provavelmente ataca com investidas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Rhinogrund.png/revision/latest?cb=20240726010840",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Lavalug",
+    "descricao": "Uma lesma de lava encontrada em áreas vulcânicas. Deixa um rastro de fogo e pode cuspir projéteis de lava.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Lavalug.png/revision/latest?cb=20240726010848",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Cragglite",
+    "descricao": "Uma pequena criatura rochosa que pode se camuflar no ambiente.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Cragglite.png/revision/latest?cb=20240726010856",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mite",
+    "descricao": "Um pequeno ácaro que ataca em enxames, semelhante aos ácaros de Ninho Profundo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Mite.png/revision/latest?cb=20240726010904",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Wisp",
+    "descricao": "Uma criatura etérea que flutua e pode atacar com energia.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Wisp.png/revision/latest?cb=20240726010912",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Craw",
+    "descricao": "Uma criatura que se assemelha a um crustáceo, com garras que usa para atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Craw.png/revision/latest?cb=20240726010920",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Muckmaggot",
+    "descricao": "Uma larva encontrada em áreas lamacentas ou sujas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Muckmaggot.png/revision/latest?cb=20240726010928",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Pokenabbin",
+    "descricao": "Uma criatura que se esconde em uma concha e ataca com um ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Pokenabbin.png/revision/latest?cb=20240726010936",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Vaultborn",
+    "descricao": "Criaturas encontradas em cofres ou áreas de tesouro, guardando segredos e riquezas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Vaultborn.png/revision/latest?cb=20240726010944",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Skullwing",
+    "descricao": "Uma criatura voadora com aparência de esqueleto, encontrada em Bonebottom.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Skullwing.png/revision/latest?cb=20240726010952",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Kilik",
+    "descricao": "Uma pequena criatura que se parece com um inseto-pau e ataca com um ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Kilik.png/revision/latest?cb=20240726011000",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Beastfly",
+    "descricao": "Uma mosca predadora que patrulha uma área e mergulha para atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Beastfly.png/revision/latest?cb=20240726011008",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Grom",
+    "descricao": "Uma criatura grande e pesada que se assemelha a um gorila e ataca com força bruta.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Grom.png/revision/latest?cb=20240726011016",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Snitchfly",
+    "descricao": "Uma mosca que carrega Rosário (a moeda do jogo) e tenta fugir quando se aproxima.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Snitchfly.png/revision/latest?cb=20240726011024",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Lavalarga",
+    "descricao": "Uma versão maior da Lavalug, que provavelmente possui ataques mais poderosos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Lavalarga.png/revision/latest?cb=20240726011032",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Deep Diver",
+    "descricao": "Uma criatura que mergulha em líquidos (possivelmente lava ou água) para se mover e atacar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Deep_Diver.png/revision/latest?cb=20240726011040",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Gurr the Outcast",
+    "descricao": "Um guerreiro exilado, provavelmente um mini-chefe, que luta com um grande ferrão.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Gurr_the_Outcast.png/revision/latest?cb=20240726011048",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mitemother",
+    "descricao": "Uma criatura que gera Mites, agindo como um ninho ambulante.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Mitemother.png/revision/latest?cb=20240726011056",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Father of the Flame",
+    "descricao": "Uma entidade poderosa associada ao fogo, possivelmente um chefe ou uma figura importante em uma quest.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Father_of_the_Flame.png/revision/latest?cb=20240726011104",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Crawfather",
+    "descricao": "O patriarca dos Craws, uma versão maior e mais forte dessas criaturas crustáceas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Crawfather.png/revision/latest?cb=20240726011112",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Disgraced Chef Lugoli",
+    "descricao": "Um chef que foi desonrado, possivelmente um NPC ou um chefe com ataques relacionados a utensílios de cozinha.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Disgraced_Chef_Lugoli.png/revision/latest?cb=20240726011120",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Groal the Great",
+    "descricao": "Uma criatura imponente, provavelmente um chefe, que parece ser feita de madeira ou raízes.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Groal_the_Great.png/revision/latest?cb=20240726011128",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Sister Splinter",
+    "descricao": "Uma guerreira ágil que parece estar relacionada a madeira ou lascas, possivelmente uma chefe.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Sister_Splinter.png/revision/latest?cb=20240726011136",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Judge",
+    "descricao": "Uma figura imponente que parece ter um papel de autoridade, possivelmente um chefe.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Judge.png/revision/latest?cb=20240726011144",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Crustcrag",
+    "descricao": "Uma criatura rochosa com uma carapaça dura, provavelmente um inimigo difícil de danificar.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Crustcrag.png/revision/latest?cb=20240726011152",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Bell Eater",
+    "descricao": "Uma criatura que parece consumir ou interagir com os sinos de Pharloom, possivelmente um chefe.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Bell_Eater.png/revision/latest?cb=20240726011200",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Forge Daughter",
+    "descricao": "Uma ferreira que irá aprimorar as armas e ferramentas de Hornet. Ela parece ser uma figura central para o sistema de crafting do jogo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Forge_Daughter.png/revision/latest?cb=20190321230343",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Grindle",
+    "descricao": "Um NPC robusto que parece ser um lojista ou um personagem que oferece algum tipo de serviço.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Grindle.png/revision/latest?cb=20240726011216",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mort",
+    "descricao": "Um NPC encontrado nos Deep Docks que parece operar um elevador ou algum tipo de transporte.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Mort.png/revision/latest?cb=20220613165843",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Pebb",
+    "descricao": "Um NPC pequeno e rochoso que parece estar relacionado a missões ou ao fornecimento de informações sobre o ambiente.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Pebb.png/revision/latest?cb=20240726011232",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Gilly",
+    "descricao": "Um NPC amigável que parece oferecer ajuda ou itens a Hornet durante sua jornada.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Gilly.png/revision/latest?cb=20240726011240",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Sherma",
+    "descricao": "Um guerreiro estudioso que parece estar em uma missão própria. Pode ser um aliado ou um personagem que oferece missões a Hornet.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Sherma.png/revision/latest?cb=20240726011248",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Huntress",
+    "descricao": "Uma caçadora habilidosa que, assim como o Caçador de Hollow Knight, pode pedir a Hornet para caçar certas criaturas em troca de recompensas.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Huntress.png/revision/latest?cb=20240726011256",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mister Mushroom",
+    "descricao": "O enigmático Mister Mushroom retorna em Silksong, aparecendo em locais inesperados para fornecer diálogos crípticos.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Mister_Mushroom.png/revision/latest?cb=20181113003003",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Pinstress",
+    "descricao": "Uma NPC que parece estar relacionada à criação ou modificação de ferramentas, possivelmente ligada ao sistema de 'pins' de Hornet.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Pinstress.png/revision/latest?cb=20240726011312",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Seamstress",
+    "descricao": "Uma costureira que pode ajudar Hornet a reparar ou criar novos itens usando seda.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Seamstress.png/revision/latest?cb=20240726011320",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Sprintmaster Swift",
+    "descricao": "Um mestre da velocidade que pode ensinar a Hornet novas habilidades de movimento ou oferecer desafios de corrida.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Sprintmaster_Swift.png/revision/latest?cb=20240726011328",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Tormented Trobbio",
+    "descricao": "Uma versão atormentada de Trobbio, sugerindo que ele pode ser encontrado em diferentes estados ou contextos ao longo do jogo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Tormented_Trobbio.png/revision/latest?cb=20240726011336",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Ballow",
+    "descricao": "Um NPC que parece oferecer balões ou algum tipo de transporte aéreo.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Ballow.png/revision/latest?cb=20240726011344",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Bell Hermit",
+    "descricao": "Um eremita que vive isolado e parece ter um conhecimento profundo sobre os sinos e a Cidadela.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Bell_Hermit.png/revision/latest?cb=20240726011352",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Mask Maker",
+    "descricao": "O misterioso Mask Maker de Hollow Knight também retorna, possivelmente para oferecer novas máscaras ou insights sobre a identidade de Hornet.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Mask_Maker.png/revision/latest?cb=20181113002948",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Aged Pilgrim",
+    "descricao": "Um peregrino idoso que pode compartilhar sabedoria ou histórias sobre o passado de Pharloom.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Aged_Pilgrim.png/revision/latest?cb=20240726011408",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Horned Pilgrim",
+    "descricao": "Um peregrino com chifres distintos, parte da população diversa que viaja pelo reino.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Horned_Pilgrim.png/revision/latest?cb=20240726011416",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Creige",
+    "descricao": "Um NPC com uma aparência robusta e espinhosa, encontrado em áreas rochosas de Pharloom.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e4/Creige.png/revision/latest?cb=20240726011424",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Frey",
+    "descricao": "Um NPC que parece ser um lojista ou um artesão, oferecendo seus produtos a Hornet.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a4/Frey.png/revision/latest?cb=20240726011432",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Vog",
+    "descricao": "Um NPC de aparência sábia que pode fornecer a Hornet informações importantes sobre a história de Pharloom.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/c/c2/Vog.png/revision/latest?cb=20240726011440",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Green Prince",
+    "descricao": "Um personagem misterioso com afiliações com a natureza, possivelmente um guardião de uma área verdejante.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/Green_Prince.png/revision/latest?cb=20240726011448",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Caretaker",
+    "descricao": "Um zelador que cuida de uma área específica, talvez os jardins da Cidadela ou um santuário.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Caretaker.png/revision/latest?cb=20240726011456",
+    "dlc": "Silksong"
+},
+{
+    "nome": "Greyroot",
+    "descricao": "Um NPC antigo e sábio, possivelmente uma árvore ou espírito da floresta, que detém conhecimento ancestral.",
+    "imagem": "https://static.wikia.nocookie.net/hollowknight/images/a/a3/Greyroot.png/revision/latest?cb=20240726011504",
+    "dlc": "Silksong"
+}
+]

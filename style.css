@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap'); /* Alternativa para a fonte do jogo */
+
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root {
+    --primary-color: #8ab4f8; /* Cor primária (azul claro) */
+    --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
+    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
+    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: #000; /* Fundo preto fixo */
+    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+}
+
+#background-container {
+    position: fixed; /* Fica fixo na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Fica atrás de todo o conteúdo */
+    background-size: cover; /* Garante que a imagem cubra todo o elemento */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center center; /* Centraliza a imagem */
+    opacity: 0; /* Começa invisível */
+    transition: opacity 2s ease-in-out; /* Transição suave de 2 segundos na opacidade */
+}
+
+body.hollowknight-page {
+    /* Fundo específico para a página de Hollow Knight */
+    background-image: url('imagens/fundoHollow.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body.silksong-page {
+    /* Fundo específico para a página de Silksong */
+    background-image: url('imagens/fundosilk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header {
+    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex; /* Habilita o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Centraliza o conteúdo */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    top: 0; /* Posição do topo quando sticky */
+    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+    flex-direction: column; /* Organiza os itens em coluna */
+}
+
+header h1 {
+    font-size: 3rem; /* Tamanho da fonte aumentado */
+    margin: 0; /* Remove a margem padrão */
+    font-weight: 500; /* Peso da fonte (médio) */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    font-family: 'Cinzel', serif; /* Adiciona a fonte que desejar aqui */
+}
+
+.subtitle {
+    font-family: 'Cinzel', serif; /* Mesma fonte do título */
+    font-size: 1.2rem; /* Tamanho menor */
+    font-weight: 400; /* Peso da fonte normal */
+    color: var(--tertiary-color); /* Cor cinza para dar menos destaque */
+    margin: -1rem 0 0 0; /* Margem negativa para aproximar do título */
+}
+
+div input {
+    padding: 0.375rem 0.75rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Arredonda as bordas */
+    border: 1px solid var(--tertiary-color); /* Define a borda */
+    background: var(--bg-color); /* Cor de fundo */
+    font-family: inherit; /* Herda a família da fonte do elemento pai */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
+    width: 25rem; /* Largura do input */
+    color: var(--secondary-color); /* Cor do texto digitado */
+    margin-right: .5rem; /* Margem à direita */
+}
+
+div input::placeholder {
+    font-size: 1.2rem; /* Tamanho da fonte do placeholder */
+    font-weight: 300; /* Peso da fonte do placeholder */
+    color: var(--tertiary-color); /* Cor do texto do placeholder */
+}
+
+div input:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    border-color: var(--bg-color); /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+#botao-busca {
+    padding: 1rem 2rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Arredonda as bordas */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    font-family: inherit; /* Herda a família da fonte */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave para cor de fundo e cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    color: var(--secondary-color); /* Cor do texto */
+    border: 1px solid var(--bg-color); /* Adiciona uma borda */
+}
+
+#botao-busca:hover {
+    background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
+    color: var(--bg-color); /* Muda a cor do texto ao passar o mouse */
+    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */
+}
+
+#botao-busca:active {
+    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+}
+
+/* Estilos para a nova tela de seleção */
+.selecao-personagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem; /* Espaço entre os cartões */
+    padding: 2rem;
+    flex-wrap: wrap; /* Permite que os itens quebrem em telas menores */
+}
+
+.personagem-card {
+    position: relative; /* Necessário para posicionar o texto sobre a imagem */
+    width: 400px;
+    height: 600px;
+    border-radius: 1rem;
+    overflow: hidden; /* Garante que a imagem não ultrapasse as bordas arredondadas */
+    display: block; /* Garante que o link ocupe o espaço definido */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border: 2px solid var(--tertiary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.personagem-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 0 20px var(--primary-color);
+}
+
+.personagem-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem cobrir todo o espaço do cartão */
+    transition: filter 0.3s ease;
+}
+
+.personagem-card:hover img {
+    filter: brightness(0.7); /* Escurece a imagem no hover */
+}
+
+.footer {
+    margin-top: 2rem; /* Adiciona um espaço acima do rodapé */
+    color: var(--tertiary-color); /* Cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    padding: 15px 20px; /* Espaçamento interno */
+    border-top: 1px solid #3c4043; /* Borda superior */
+    font-size: 0.8rem; /* Tamanho da fonte */
+}
+
+.footer-location {
+    color: #9aa0a6; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.footer-links {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+.footer-links a {
+    color: var(--secondary-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s; /* Transição suave para a cor */
+}
+
+.footer-links a:hover {
+    color: var(--accent-color); /* Muda a cor do link ao passar o mouse (variável não definida) */
+}
+
+@media (max-width: 768px) {
+    header { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+    div input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    }
+
+    article:hover { /* Estilos para o article em telas menores */
+        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 70%; /* Define uma largura máxima */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    }
+
+    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    div input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    div { /* Estilos para a div do cabeçalho em telas muito pequenas */
+        display: flex; /* Habilita flexbox */
+        align-items: center; /* Alinha itens ao centro */
+        justify-content: center; /* Centraliza itens */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+    }
+
+    .footer { /* Estilos para o rodapé em telas muito pequenas */
+        display: none; /* Oculta o rodapé */
+    }
+
+    button { /* Estilos para o botão em telas muito pequenas */
+        margin-top: 1rem; /* Adiciona margem no topo */
+    }
+}
+
+/* Estilos para a página de detalhes do personagem */
+.personagem-detalhe-card {
+    background-color: var(--bg-color);
+    border: 2px solid var(--tertiary-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem auto; /* Centraliza o card e adiciona margem */
+    max-width: 700px; /* Largura máxima para o card de detalhes */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.personagem-detalhe-imagem {
+    max-width: 300px; /* Define uma largura máxima para a imagem */
+    width: 100%; /* Faz a imagem ser responsiva dentro do card */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    margin-bottom: 1.5rem; /* Espaço abaixo da imagem */
+    border: 1px solid var(--tertiary-color);
+}
+
+.personagem-detalhe-card h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.personagem-detalhe-card p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--secondary-color);
+}
+
+/* Estilos para a página de opções (opcoes.html) */
+.options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.option {
+    width: 90%;
+    max-width: 700px; /* Largura máxima para as opções */
+    background-color: var(--bg-color);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 0.5rem;
+    overflow: hidden; /* Garante que o conteúdo interno não ultrapasse as bordas */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Remove a transição 'all' para evitar conflitos */
+}
+
+.option-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+}
+
+.option:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(138, 180, 248, 0.3);
+}
+
+.dropdown-arrow {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.additional-info {
+    max-height: 0; /* Começa escondido */
+    opacity: 0;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out, opacity 0.3s ease-out;
+    padding: 0 1.5rem; /* Padding horizontal para alinhar com o header */
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left; /* Alinha o texto da lista à esquerda */
+}
+
+.additional-info ul {
+    padding-left: 20px; /* Adiciona um recuo para a lista */
+}
+
+/* Estilos para o item de personagem dentro da opção */
+.character-item {
+    padding: 0.5rem 0;
+}
+
+.character-name-clickable {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0.5rem 0;
+    transition: color 0.2s ease;
+}
+
+.character-name-clickable::before {
+    content: "◆"; /* Ícone de tópico (losango) */
+    margin-right: 0.75rem; /* Espaço entre o ícone e o nome */
+    color: var(--tertiary-color); /* Cor do ícone */
+}
+
+.character-name-clickable:hover {
+    color: var(--secondary-color);
+}
+
+.character-details-hidden {
+    max-height: 0; /* Começa totalmente recolhido */
+    opacity: 0;
+    overflow: hidden;
+    /* A transição de padding foi removida para simplificar e garantir o funcionamento */
+    transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+    text-align: left;
+    /* O padding será aplicado apenas quando a classe 'details-visible' for adicionada */
+}
+
+.character-image-small {
+    max-width: 150px;
+    float: left; /* Flutua a imagem para a esquerda */
+    margin-right: 1rem; /* Espaço entre a imagem e o texto */
+    border-radius: 0.5rem;
+}
+
+/* Mostra os detalhes apenas quando a classe 'details-visible' está presente */
+.character-details-hidden.details-visible {
+    max-height: 500px; /* Altura suficiente para o conteúdo */
+    opacity: 1;
+    padding-top: 1rem; /* Adiciona o espaçamento superior apenas quando visível */
+}
+
+.option.active .additional-info {
+    max-height: 70vh; /* Aumenta a altura máxima para 70% da altura da tela */
+    opacity: 1;
+    padding: 1rem 1.5rem; /* Adiciona padding vertical quando ativo */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se o conteúdo for maior que a altura máxima */
+}
+
+.option.active .dropdown-arrow {
+    transform: rotate(180deg); /* Gira a seta para baixo */
+}
+
+/* Estilização da barra de rolagem para navegadores WebKit (Chrome, Safari, etc.) */
+.additional-info::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+.additional-info::-webkit-scrollbar-track {
+    background: transparent; /* Fundo da barra de rolagem (trilha) transparente */
+}
+
+.additional-info::-webkit-scrollbar-thumb {
+    background-color: rgba(154, 160, 166, 0.5); /* Cor da barra com transparência */
+    border-radius: 4px; /* Bordas arredondadas */
+}

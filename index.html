@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bestiário | Hollow Knight & Silksong</title>
+</head>
+<body>
+    <div id="background-container"></div>
+    <header>
+        <h1>Hollow Knight & Silksong</h1>
+    </header>
+    <main>
+        <div class="selecao-personagem">
+            <a href="opcoes.html" class="personagem-card">
+                <img src="imagens/capaHk.jpg" alt="Capa de Hollow Knight">
+            </a>
+            <a href="hornet.html" class="personagem-card">
+                <img src="imagens/Silkcapa.jpeg" alt="Capa de Silksong">
+            </a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-location">Brasil</div>
+        <ul class="footer-links">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Publicidade</a></li>
+            <li><a href="#">Como a busca funciona</a></li>
+        </ul>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const bgContainer = document.getElementById('background-container');
+            const cards = document.querySelectorAll('.personagem-card');
+            const hollowKnightCard = cards[0];
+            const silksongCard = cards[1];
+    
+            // Define os fundos para cada card
+            const hollowKnightBg = "url('imagens/fundoHollow.jpeg')";
+            const silksongBg = "url('imagens/fundosilk.png')";
+    
+            // Função para mostrar o fundo
+            const showBackground = (bgImage) => {
+                bgContainer.style.backgroundImage = bgImage;
+                bgContainer.style.opacity = '1';
+            };
+    
+            // Função para esconder o fundo
+            const hideBackground = () => {
+                bgContainer.style.opacity = '0';
+            };
+    
+            // Adiciona eventos de mouseover para cada card
+            hollowKnightCard.addEventListener('mouseover', () => showBackground(hollowKnightBg));
+            silksongCard.addEventListener('mouseover', () => showBackground(silksongBg));
+    
+            // Esconde o fundo quando o mouse sai de qualquer card
+            cards.forEach(card => card.addEventListener('mouseout', hideBackground));
+        });
+    </script>
+</body>
+</html>
